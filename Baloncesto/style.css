@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(77, 191, 240);
+}
+header{
+  text-align: center;
+}
+#teams{
+  border-radius: 25px;
+
+}
+#btnTeams{
+  border-radius: 25px;
+}
+#container{
+  margin: 2rem;
+}
+.card{
+  border-radius: 25px;
+  width:400px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid black;
+  background:linear-gradient(rgb(234,234,234),#18f448);
+  align-content: center;
+}
+#NBA{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
